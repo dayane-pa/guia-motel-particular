@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+
+
+main section {
+    margin-top: -80px;
+    height: 60%;
+}
+
+section div p{
+    text-align: justify;
+    
+}
