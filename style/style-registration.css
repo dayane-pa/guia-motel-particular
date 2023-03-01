@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+
+
+
+main section{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    top:30%;
+    left: 0%;
+    transform: translate(0%,-50%);
+    overflow: hidden;
+    box-shadow: none;
+    background-color: transparent;
+}
+main section h1{
+    font-size: 19px;
+    font-weight: 800;
+    margin-top:12px;
+    margin-bottom: 30px;   
+}
+main section form input{
+    width: 99%;
+    height:35px ;
+    border-radius: 16px;
+    background-color:var(--cor2);
+    border: 0;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    font-size: 15px;
+    margin-left: 2px;
+}
+main section form input::placeholder{
+    color: var(--cor7);
+    font-weight: 400;
+    font-size:16px ;
+}
+main section form div{
+    height: 30px;
+    margin-bottom: 2px;
+
+}
+main section form div input#discount,input#term{
+    margin-top: 10px;
+    margin-left: 10px;
+   border: 1px solid rgb(247, 2, 2);
+}
+
+input[type="checkbox"]{
+    -webkit-appearance:none;
+    background-color: rgb(255, 255, 255);
+    width: 10px;
+    height: 15px;
+    border-radius: 1%;
+
+}
+input[type="checkbox"]:checked{
+  background-color: var(--cor3);
+    
+}
+
+main section form input#continued{
+    padding-left: 0px;
+    margin-top: 30px;
+    background-color: var(--cor4);
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--cor7);
+    pointer-events:stroke;
+}
+
+main section form div label{
+    margin-left: 10px ;
+    margin-top: 12px;
+    position: absolute;
+    font-size: 12px;
+    white-space:normal;
+}
+main section form div label >a{
+    font-weight: 800;
+}
+

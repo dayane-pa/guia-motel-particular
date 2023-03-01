@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css" media="all">
+    <!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.min.css">  -->
+    <script src="javascript.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap" rel="stylesheet">
+    
+    <title>Motel Guide</title>
+
+</head>
+
+<body>
+    <header>
+        <div id="search">
+            <img src="imagens/page-started/header/search/search.png" alt="search">  
+            <input type="text" id="search boxes" placeholder="Em que lugar?"> 
+            <a href="#"><div><img src="imagens/page-started/header/search/filter.png" alt="filter"></div></a>
+        </div>
+        <div id="container">
+            <div class="my-slider">
+
+            <div>
+                <a href="#">
+                <picture><img src="imagens/page-started/header/pre-filters/banheira.png" alt=""></picture>
+                <p>Banheira</p>
+            </a></div>
+            <div>
+                <a href="#">
+                    <img src="imagens/page-started/header/pre-filters/garage.png" alt="">
+                    <p>Garagem</p>
+                </a></div>
+            <div>
+                <a href="#">
+                    <img src="imagens/page-started/header/pre-filters/secador-cabelo.png" alt="">
+                    <p>Secador</p>
+                </a></div>
+            <div>
+                <a href="#">
+                    <img src="imagens/page-started/header/pre-filters/spa.png" alt="">
+                    <p>Sauna</p>
+                </a></div>
+            <div>
+                <a href="#"><img src="imagens/page-started/header/pre-filters/tropical-drink.png" alt="">
+                    <p>Bar</p>
+                </a></div>
+            <div>
+                <a href="#">
+                    <img src="imagens/page-started/header/pre-filters/swimming.png" alt="">
+                    <p>Piscina</p>
+                </a></div>
+            <div>
+                <a href="#"><img src="imagens/page-started/header/pre-filters/tv.png" alt="">
+                    <p>TV</p> 
+                </a></div>
+            <div>
+                <a href="#">
+                    <img src="imagens/page-started/header/pre-filters/flower.png" alt="">
+                    <p>Jardin</p>
+                </a></div>
+            </div>
+
+        </div>
+             <picture class="arrow-left"><img src="imagens/page-started/header/arrow/left.png" alt=""></picture>
+            <picture class="arrow-right"><img src="imagens/page-started/header/arrow/right.png" alt=""></picture>
+    </header>
+
+    <main>
+        <section>
+            <picture><img src="#" alt="#">
+            </picture>
+            <div class="motel-name">
+                <h1>Nome Motel</h1>
+                <p class="district">Bairro - Distrito</p>
+                <p class="distance">4.7KM</p>
+            </div>
+
+            <div class="view-suit">
+                <a href="motel-page.html"> 
+                    <picture><img src="imagens/page-started/motel/ver.mais-verde.png" alt="arrow"></picture>
+                    <p> Ver Suítes</p>
+               </a>
+            </div>
+        </section>
+
+        <section>
+            <picture><img src="#" alt="#">
+            </picture>
+            <div class="motel-name">
+                <h1>Nome Motel</h1>
+                <p class="district">Bairro -Distrito</p>
+                <p class="distance" >4.7KM</p>
+            </div>
+
+            <div class="view-suit">
+                <a href="motel-page.html">
+                <picture><img src="imagens/page-started/motel/ver.mais-verde.png" alt="arrow"></picture>
+                    <p> Ver Suites</p>
+                </a>
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+            <li class="explore">
+                <a href="index.html"><img src="imagens/down-menu/explorer-black.png" alt="">
+                <p>Explorar</p>
+             </a></li>
+            <li class="favorites">
+                <a href="my-favorites.html"><img src="imagens/down-menu/heart-gray.png" alt="">
+                <p>Favoritos</p>
+                </a></li>
+            <li class="map">
+                <a href="map.html"><img class="map" src="imagens/down-menu/map-gray.png" alt="">
+                <p>Mapa</p>
+                </a></li>
+            <li class="my-account">
+                <a href="loggin.html"><img  src="imagens/down-menu/avatar-gray.png" alt="">
+                <p>Minha Conta</p>
+                </a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+
+        <script>
+            var slider =tns({
+               "container": '.my-slider',
+               "items": 5,
+                "slideBy": "page",
+                "mouseDrag": true,
+                "swipeAngle": false,
+                "speed": 400,
+                "controls":false,
+                  
+            })
+        </script>
+    
+</body>
+</html>
