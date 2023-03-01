@@ -1,29 +1,8 @@
 @charset "UTF-8";
 
 
-main section{
-    height: 65vh;
-    margin-top: -30px;
-    padding: 10px;
-    overflow: hidden;
-    background-color: transparent;
-    box-shadow: none;
-
-}
-main section div h1{
-    font-size: 19px;
-    margin-bottom: 35px;
-}
-main section div#main a div{
-    height: 4.9vh;
-}
-main section div#main form div{
-    position: relative;
-    height: 10vh;
-    background-color: rgb(255, 255, 255);
-    overflow: hidden;
-    margin-bottom: 10px;
-    border-bottom: 1.2px solid rgba(0, 0, 0, 0.199);
+main section #main form div input{
+    width: 62vw;
    
 }
 
@@ -31,54 +10,21 @@ main section div#main form div.deactivate{
     height: 18vh;
     border: none;
 }
+
+
 main section div#main form div.deactivate p{
     font-weight: 400;
     font-size: 16px;
     color: var(--cor5);
-}
-
-
-main section #main form div label{
-    font-weight: 800;
-    font-size: 16px;
-    color: var(--cor5);
-}
-
-main section #main form div input{
+    display: inline-block;
+    margin-top: 10px;
     width: 62vw;
-    height: 5vh;
-    padding: 8px;
-    margin-top: 5px;
-    border: none;
+    
 }
-main section #main form div a{
-    font-weight: 800;
-    color: var(--cor5);
-   
-}
-main section #main form div a.delete{
+
+
+main section #main form div.deactivate a.delete{
     margin-left: 21px;
+    
 }
 
-
-main .logout-main{
-    position: absolute;
-    bottom: 210px;
-    left:0% ;
-    transform: translate(10%, -50%);
-     
-}
-main div.logout{
-    position: relative;
-    margin-left: 20px;
-    margin-top:20px ;
-}
-main div.logout a img{
-    position: absolute;
-    width: 20px;
-}
-main div.logout a > p{
-   margin-left: 30px;
-   font-size: 14px;
-   color: rgb(99, 97, 97);
-}
